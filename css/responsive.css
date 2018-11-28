@@ -1,0 +1,150 @@
+@media (min-width: 27em) { /* 432px */
+    
+    body {
+        font-size: 105%;
+    }
+    
+    /* ---- Navigation ---- */
+    .main-nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        max-width: 26.25rem;
+    }
+
+    .main-nav a {
+        padding: 0 1.1em;
+    }
+    
+    /* ---- landing content ---- */
+    .landing-content h1 {
+        font-size: 2em;
+    }
+    
+    .landing-content h2 {
+        font-size: 1.1em;
+    }
+    
+    /* --------------------
+        Section: page-work
+    ----------------------- */
+    
+    .work-list h2 {
+        font-size: 1.55em;
+    }
+}
+
+@media (min-width: 41.875em) {
+    
+    body {
+        font-size: 110%;
+    }
+    
+    /* --------------------
+        Navigation
+    ----------------------- */
+    .main-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* --------------------
+        Section: page-landing
+    ----------------------- */
+    
+    .landing-content h1 {
+        font-size: 6vw;
+    }
+    
+    .landing-content h2 {
+        font-size: 3vw;
+    }
+    
+    /* --------------------
+        Section: page-work
+    ----------------------- */
+    
+    .work-list h2 {
+        font-size: 1.7em;
+    }
+    
+    /* --------------------
+        Section: Services
+    ----------------------- */
+    
+    #page-services h1 {
+        font-size: 1.95em;
+    }
+    
+    .tables-container {
+        flex-direction: row;
+    }
+    
+    .table {
+        flex: 1;
+    }
+    
+    .table-1 {
+        margin-right: 1em
+    }
+}
+
+@media (min-width: 58.125em) {
+    
+    /* --------------------
+        Section: About
+    ----------------------- */
+    #page-about {
+        flex-direction: row;
+        align-items: stretch;
+    }
+    
+    #page-about article {
+        flex: 2;
+        margin-right: 2em;
+    }
+    
+    #page-about figure {
+        flex: 1;
+    }
+    
+    /* --------------------
+        Section: Services
+    ----------------------- */
+    #page-services {
+        flex-direction: row;
+    }
+    
+    /* ---- tables ---- */
+    .technologies-services {
+        flex: 1;
+        margin-right: 6%;
+    }
+    
+    .tables-container {
+        order: 1;
+    }
+
+    /* ---- aside ---- */
+    #page-services aside {
+        order: 1;
+        flex: 1;
+    }
+    
+    #page-services h1 {
+        font-size: 2.5em;
+    }
+    
+    /* ---- HTML & CSS & JS image ---- */
+
+    .HTML-CSS-JS {
+        margin-bottom: 2em;
+    }
+    
+}
+
+
+
+
+

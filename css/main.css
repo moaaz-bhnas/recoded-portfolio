@@ -1,0 +1,390 @@
+/* =============================
+    Base Styles
+================================ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    letter-spacing: 0.028em;
+    color: #0f1830;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.074em;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 1.728em;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.44em;
+    line-height: 1.3;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition-duration: 0.3s;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+/* =============================
+    Layout Styles
+================================ */
+
+/* --------------------
+    Header
+----------------------- */
+header {
+    background: url(../img/bg.jpg) no-repeat 20% 0 / cover;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    text-align: center;
+
+    align-items: center;
+}
+
+/* Navigation --- */
+.main-nav li {
+    letter-spacing: 0.027em;
+}
+
+.main-nav a {
+    display: block;
+    padding: 0.5em;
+    letter-spacing: 0.027em;
+}
+
+.main-nav a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Landing content --- */
+.landing-content {
+    margin: auto;
+}
+
+.landing-content h1 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.landing-content h2 {
+    font-size: 1em;
+    margin: 0.8em 0 1.8em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.landing-content .btn {
+    display: inline-block;
+    padding: 0.8em;
+    border: 2px solid;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    transition: background-color 0.3s;
+}
+
+.landing-content .btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --------------------
+    Section: page-about
+----------------------- */
+#page-about {
+    align-items: center;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* ---- Article ---- */
+#page-about article a {
+    color: #84bbdd;
+    text-decoration: underline;
+}
+
+#page-about article a:hover {
+    color: #5c7f94;
+}
+
+.highlight {
+    font-style: normal;
+    background-color: #0f1830;
+    color: #fff;
+    padding: 0.2em 0.5em;
+    border-radius: 0.6em
+}
+
+/* ---- Figure ---- */
+#page-about figure {
+    max-width: 60%;
+    margin-top: 1.5em;
+}
+
+#page-about figure img {
+    border-radius: 50%;
+}
+
+/* --------------------
+    Section: page-work
+----------------------- */
+#page-work {
+    background-color: #84bbdd;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.work-list {
+    flex: 1;
+}
+
+.work-list li {
+    border-bottom: 1px solid;
+}
+
+.work-list li a {
+    display: flex;
+    padding: 0 0.5em;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.4s;
+}
+
+.work-list li a:hover {
+    background-color: #64acdb;
+}
+
+.work-list h2 {
+    margin: 0.6em 0;
+    font-size: 1.4em
+}
+
+/* --------------------
+    Section: Services
+----------------------- */
+#page-services {
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* ---- Aside ---- */
+#page-services aside {
+    margin-bottom: 2em;
+    order: -1;
+}
+
+#page-services h1 {
+    font-size: 1.7em;
+}
+
+#page-services p {
+    font-size: 1em;
+}
+
+/* ---- Tables ---- */
+.table ul {
+    padding: 0.5em 3em;
+    list-style: disc;
+    font-size: 0.9em;
+}
+
+.tables-container {
+    margin-bottom: 1em;
+}
+
+.table {
+    margin-bottom: 1em;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1em 1em 0 0;
+}
+
+.table h2 {
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 0.7em;
+    border-radius: 0.65em 0.65em 0 0;
+}
+
+.table li {
+    margin: 0.4em 0;
+}
+
+/* ---- HTML & CSS & JS image ---- */
+.HTML-CSS-JS {
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --------------------
+    Section: Contact
+----------------------- */
+#page-contact {
+    background-color: #1bbc9b;
+    position: relative; /* To position the footer absolutely at its bottom */
+    padding-bottom: 25vh;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-content p {
+    text-align: left;
+    max-width: 45rem;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-content .btn {
+    display: inline-block;
+    padding: 0.8em;
+    border: 2px solid;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    margin: 1.5em 0;
+    transition-property: color, background-color, border-color;
+    transition-duration: 0.3s;
+}
+
+.contact-content .btn:hover {
+    color: #0f1830;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.contact-content aside a {
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.contact-content aside a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.resume {
+    margin-right: 1em;
+}
+
+/* ---- Footer ---- */
+
+footer {
+    flex-direction: column;
+    background-color: #000e18;
+    min-height: 20vh;
+    position: absolute;
+    bottom: 0;  left: 0;    right: 0;
+    font-size: 1.1em;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* ---- Social Icons ---- */
+footer nav {
+    max-width: 16em;
+    width: 90%;
+    margin-top: 1em;
+}
+
+.social-icons {
+    justify-content: space-between;
+}
+
+.social-icons a {
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* ---- copy right ---- */
+.copyright {
+    font-size: 0.7em;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+
+/* --------------------
+    DRY
+----------------------- */
+header,
+.main-nav,
+#page-about,
+#page-services,
+.technologies-services,
+.tables-container {
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.page {
+    min-height: 100vh;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.main-nav,
+.landing-content,
+#page-work,
+#page-services,
+#page-contact {
+    color: #fff;
+}
