@@ -1,5 +1,5 @@
 ## Web Developer Portfolio
-One of a list of complex website layouts I started to reverse-engineer to practice HTML and CSS.
+One of a list of complex website layouts I started to reverse-engineer to practice HTML, CSS and responsive web design.
 
 ## See Others
 - [psychologist Personal Website](https://github.com/moaaz-bhnas/reverse-engineered-psychologist-website#psychologist-personal-website)
